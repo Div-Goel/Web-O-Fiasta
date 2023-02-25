@@ -1,0 +1,77 @@
+body{
+margin: 0px;
+padding: 0px;
+background-color: black;
+height: 1000px;
+}
+
+p{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 180px;
+    font-size: 50px;
+}
+
+.bg {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+#circle {
+    border: 5px solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: 900px;
+    top: 120px;
+    height: 210px;
+    width: 210px;
+ }
+
+ #triangle {
+    position: absolute;
+    top: 210px;
+    left: 1000px;
+	border-top: 12.5px solid transparent;
+	border-left: 25px solid white;
+	border-bottom: 12.5px solid transparent;
+}
+
+#buttont {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+
+#buttonb {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  
+  #buttont:hover {
+    background-color: #555;
+  }
+
+  #buttonb:hover {
+    background-color: #555;
+  }
+
+  .text{
+    font-size: 15px;
+    top: 450px;
+    left: 620px;
+  }
